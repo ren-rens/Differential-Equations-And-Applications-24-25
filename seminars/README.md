@@ -1,1 +1,1 @@
-
+Some tasks from seminars :)
