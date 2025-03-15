@@ -14,3 +14,5 @@ x = -8:0.01:8;
 sol = eval(singy);
 
 plot(x, sol, 'k');
+
+end
