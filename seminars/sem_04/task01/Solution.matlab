@@ -1,5 +1,4 @@
 function unsolved
-% Discriminant Curve
 axis([-8 8 -6 6])
 hold on;
 grid on;
@@ -15,8 +14,6 @@ x = -8:0.01:8;
 sol = eval(singy);
 
 plot(x, sol, 'k');
-
-% Solutions
 
 [x0, y0] = ginput(1);
 plot(x0, y0, 'r*');
