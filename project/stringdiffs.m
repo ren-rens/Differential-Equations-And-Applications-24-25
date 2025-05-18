@@ -5,11 +5,13 @@ function stringdiffs
     h = L / 100;
     tau = T / 250;
 
-    # h = L / 200;tau = T / 500;
+    % h = L / 200;tau = T / 500;
     
     c = (a * tau) / h;
     x = 0:h:L;
     t = 0:tau:T;
+
+    u = zeros(length(x), length(t));  
     
     for i = 1 : length(x)
         for j = 1 : length(t)
