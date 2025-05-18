@@ -4,6 +4,9 @@ function stringdiffs
     a = 1/4;
     h = L / 100;
     tau = T / 250;
+
+    # h = L / 200;tau = T / 500;
+    
     c = (a * tau) / h;
     x = 0:h:L;
     t = 0:tau:T;
